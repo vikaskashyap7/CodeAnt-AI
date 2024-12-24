@@ -65,7 +65,7 @@ const Sidebar = () => {
                 <BsTelephone size={20} color='#414651'/>
                 <p className='font-[inter] font-[400] text-[18px] leading-[26px] text-[#414651]'>Support</p>
            </div>
-          <Link to={'/dashboard'}> <div className='w-[210px] h-[44px] flex gap-3 ml-[28px]'>
+          <Link to={'/signin'}> <div className='w-[210px] h-[44px] flex gap-3 ml-[28px]'>
                 <FiLogOut size={20} color='#414651'/>
                 <p className='font-[inter] font-[400] text-[17px] leading-[26px] text-[#414651]'>Logout</p>
             </div></Link >
@@ -104,7 +104,7 @@ const Sidebar = () => {
                       <BsTelephone size={20} color='#414651'/>
                       <p className='font-[inter] font-[400] text-[18px] leading-[26px] text-[#414651]'>Support</p>
                     </div>
-                    <Link to={'/dashboard'}><div className='w-[308px] h-[44px] flex gap-3 pt-[10px] pl-[14px] '>
+                    <Link to={'/signin'}><div className='w-[308px] h-[44px] flex gap-3 pt-[10px] pl-[14px] '>
                       <FiLogOut size={20} color='#414651'/>
                       <p className='font-[inter] font-[400] text-[17px] leading-[26px] text-[#414651]'>Logout</p>
                     </div></Link>
