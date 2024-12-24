@@ -8,7 +8,8 @@ import { LuBookText } from "react-icons/lu";
 import { IoSettingsOutline } from "react-icons/io5";
 import { BsTelephone } from "react-icons/bs";
 import { FiLogOut } from "react-icons/fi";
-import { RxHamburgerMenu } from "react-icons/rx";;
+import { RxHamburgerMenu } from "react-icons/rx";
+import { Link } from 'react-router-dom';
 
 
 const Sidebar = () => {
@@ -64,10 +65,10 @@ const Sidebar = () => {
                 <BsTelephone size={20} color='#414651'/>
                 <p className='font-[inter] font-[400] text-[18px] leading-[26px] text-[#414651]'>Support</p>
            </div>
-           <div className='w-[210px] h-[44px] flex gap-3 ml-[28px]'>
+          <Link to={'/dashboard'}> <div className='w-[210px] h-[44px] flex gap-3 ml-[28px]'>
                 <FiLogOut size={20} color='#414651'/>
                 <p className='font-[inter] font-[400] text-[17px] leading-[26px] text-[#414651]'>Logout</p>
-            </div>
+            </div></Link >
         </div>
          <div>
           {
@@ -103,10 +104,10 @@ const Sidebar = () => {
                       <BsTelephone size={20} color='#414651'/>
                       <p className='font-[inter] font-[400] text-[18px] leading-[26px] text-[#414651]'>Support</p>
                     </div>
-                    <div className='w-[308px] h-[44px] flex gap-3 pt-[10px] pl-[14px] '>
+                    <Link to={'/dashboard'}><div className='w-[308px] h-[44px] flex gap-3 pt-[10px] pl-[14px] '>
                       <FiLogOut size={20} color='#414651'/>
                       <p className='font-[inter] font-[400] text-[17px] leading-[26px] text-[#414651]'>Logout</p>
-                    </div>
+                    </div></Link>
                   </div>
                 </div>
               </div>
